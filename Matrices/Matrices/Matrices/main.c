@@ -48,3 +48,9 @@ int main()
     printf("%d \n",Get(m,3,3));
 }
 
+<<<<<<< HEAD
+=======
+
+// i am on dev branch
+
+>>>>>>> dev
