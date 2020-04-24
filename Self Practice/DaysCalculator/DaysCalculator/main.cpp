@@ -91,18 +91,45 @@ int tgm(int d,int m,int y)
     return sum;
 }
 
-int MidCal(int sy,int ey)
+int MidCalYear(int sy,int ey)
 {
     int sum=0;
-    for(int i=sy+1;i<ey;i++)
+    if(sy==ey)
     {
-        if(i%4==0)
+        return 0;
+    }
+    else
+    {
+        for(int i=sy+1;i<ey;i++)
         {
-            sum+=ly;
+            if(i%4==0)
+            {
+                sum+=ly;
+            }
+            else
+            {
+                sum+=nly;
+            }
         }
-        else
+        return sum;
+    }
+}
+
+int MidCalMonth(int sm,int em,int sy)
+{
+    int sum = 0;
+    if(sy%4==0)
+    {
+        for(int i=sm+1;i<em;i++)
         {
-            sum+=nly;
+            sum+=leap[i];
+        }
+    }
+    if(sy%4!=0)
+    {
+        for(int i=sm+1;i<em;i++)
+        {
+            sum+=nleap[i];
         }
     }
     return sum;
@@ -114,8 +141,8 @@ int MidCal(int sy,int ey)
 public:
     void Set();
     bool Valid();
-    long Calculate();
-    long calculate;
+    long long Calculate();
+    long long calculate;
 };
 
 
@@ -193,15 +220,44 @@ bool Date::Valid()
     }
     
     return true;
-    
 }
 
-
-long Date::Calculate()
+int MidCalDay(int sd,int ed)
 {
-    int f = ted(sd,sm,sy) + tem(sd,sm,sy);
-    int s = MidCal(sy,ey);
-    int t = tgd(ed,em,ey) + tgm(ed,em,ey);
+    int sum=0;
+    for (int i=sd;i<ed;i++)
+    {
+        sum+=1;
+    }
+    return sum;
+}
+
+long long Date::Calculate()
+{
+    int f;
+    int s;
+    int t;
+    
+    if(ey!=sy)
+    {
+        f = ted(sd,sm,sy) + tem(sd,sm,sy);
+        s = MidCalYear(sy,ey);
+        t = tgd(ed,em,ey) + tgm(ed,em,ey);
+    }
+    else if(em!=sm)
+    {
+        f = ted(sd,sm,sy);
+        s = MidCalMonth(sm,em,sy);
+        t = tgd(ed,em,ey);
+    }
+    else
+    {
+        f=0;
+        s=MidCalDay(sd,ed);
+        t=0;
+    }
+    
+    
     int nod = f+s+t;
     return nod;
 }
