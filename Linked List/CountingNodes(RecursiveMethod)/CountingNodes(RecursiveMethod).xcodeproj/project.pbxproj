@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6221B464245F0C86002A3F68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6221B463245F0C86002A3F68 /* main.cpp */; };
+		6221B477245F0DE8002A3F68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6221B476245F0DE8002A3F68 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6221B45E245F0C86002A3F68 /* CopyFiles */ = {
+		6221B471245F0DE8002A3F68 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6221B460245F0C86002A3F68 /* CountingNodesRecursiveMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CountingNodesRecursiveMethod; sourceTree = BUILT_PRODUCTS_DIR; };
-		6221B463245F0C86002A3F68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6221B473245F0DE8002A3F68 /* CountingNodes(RecursiveMethod) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CountingNodes(RecursiveMethod)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6221B476245F0DE8002A3F68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6221B45D245F0C86002A3F68 /* Frameworks */ = {
+		6221B470245F0DE8002A3F68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6221B457245F0C86002A3F68 = {
+		6221B46A245F0DE8002A3F68 = {
 			isa = PBXGroup;
 			children = (
-				6221B462245F0C86002A3F68 /* CountingNodesRecursiveMethod */,
-				6221B461245F0C86002A3F68 /* Products */,
+				6221B475245F0DE8002A3F68 /* CountingNodes(RecursiveMethod) */,
+				6221B474245F0DE8002A3F68 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6221B461245F0C86002A3F68 /* Products */ = {
+		6221B474245F0DE8002A3F68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6221B460245F0C86002A3F68 /* CountingNodesRecursiveMethod */,
+				6221B473245F0DE8002A3F68 /* CountingNodes(RecursiveMethod) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6221B462245F0C86002A3F68 /* CountingNodesRecursiveMethod */ = {
+		6221B475245F0DE8002A3F68 /* CountingNodes(RecursiveMethod) */ = {
 			isa = PBXGroup;
 			children = (
-				6221B463245F0C86002A3F68 /* main.cpp */,
+				6221B476245F0DE8002A3F68 /* main.cpp */,
 			);
-			path = CountingNodesRecursiveMethod;
+			path = "CountingNodes(RecursiveMethod)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6221B45F245F0C86002A3F68 /* CountingNodesRecursiveMethod */ = {
+		6221B472245F0DE8002A3F68 /* CountingNodes(RecursiveMethod) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6221B467245F0C86002A3F68 /* Build configuration list for PBXNativeTarget "CountingNodesRecursiveMethod" */;
+			buildConfigurationList = 6221B47A245F0DE8002A3F68 /* Build configuration list for PBXNativeTarget "CountingNodes(RecursiveMethod)" */;
 			buildPhases = (
-				6221B45C245F0C86002A3F68 /* Sources */,
-				6221B45D245F0C86002A3F68 /* Frameworks */,
-				6221B45E245F0C86002A3F68 /* CopyFiles */,
+				6221B46F245F0DE8002A3F68 /* Sources */,
+				6221B470245F0DE8002A3F68 /* Frameworks */,
+				6221B471245F0DE8002A3F68 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CountingNodesRecursiveMethod;
-			productName = CountingNodesRecursiveMethod;
-			productReference = 6221B460245F0C86002A3F68 /* CountingNodesRecursiveMethod */;
+			name = "CountingNodes(RecursiveMethod)";
+			productName = "CountingNodes(RecursiveMethod)";
+			productReference = 6221B473245F0DE8002A3F68 /* CountingNodes(RecursiveMethod) */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6221B458245F0C86002A3F68 /* Project object */ = {
+		6221B46B245F0DE8002A3F68 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Saransh Khulbe";
 				TargetAttributes = {
-					6221B45F245F0C86002A3F68 = {
+					6221B472245F0DE8002A3F68 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 6221B45B245F0C86002A3F68 /* Build configuration list for PBXProject "CountingNodesRecursiveMethod" */;
+			buildConfigurationList = 6221B46E245F0DE8002A3F68 /* Build configuration list for PBXProject "CountingNodes(RecursiveMethod)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 6221B457245F0C86002A3F68;
-			productRefGroup = 6221B461245F0C86002A3F68 /* Products */;
+			mainGroup = 6221B46A245F0DE8002A3F68;
+			productRefGroup = 6221B474245F0DE8002A3F68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6221B45F245F0C86002A3F68 /* CountingNodesRecursiveMethod */,
+				6221B472245F0DE8002A3F68 /* CountingNodes(RecursiveMethod) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6221B45C245F0C86002A3F68 /* Sources */ = {
+		6221B46F245F0DE8002A3F68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6221B464245F0C86002A3F68 /* main.cpp in Sources */,
+				6221B477245F0DE8002A3F68 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6221B465245F0C86002A3F68 /* Debug */ = {
+		6221B478245F0DE8002A3F68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		6221B466245F0C86002A3F68 /* Release */ = {
+		6221B479245F0DE8002A3F68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Release;
 		};
-		6221B468245F0C86002A3F68 /* Debug */ = {
+		6221B47B245F0DE8002A3F68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		6221B469245F0C86002A3F68 /* Release */ = {
+		6221B47C245F0DE8002A3F68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6221B45B245F0C86002A3F68 /* Build configuration list for PBXProject "CountingNodesRecursiveMethod" */ = {
+		6221B46E245F0DE8002A3F68 /* Build configuration list for PBXProject "CountingNodes(RecursiveMethod)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6221B465245F0C86002A3F68 /* Debug */,
-				6221B466245F0C86002A3F68 /* Release */,
+				6221B478245F0DE8002A3F68 /* Debug */,
+				6221B479245F0DE8002A3F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6221B467245F0C86002A3F68 /* Build configuration list for PBXNativeTarget "CountingNodesRecursiveMethod" */ = {
+		6221B47A245F0DE8002A3F68 /* Build configuration list for PBXNativeTarget "CountingNodes(RecursiveMethod)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6221B468245F0C86002A3F68 /* Debug */,
-				6221B469245F0C86002A3F68 /* Release */,
+				6221B47B245F0DE8002A3F68 /* Debug */,
+				6221B47C245F0DE8002A3F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6221B458245F0C86002A3F68 /* Project object */;
+	rootObject = 6221B46B245F0DE8002A3F68 /* Project object */;
 }
